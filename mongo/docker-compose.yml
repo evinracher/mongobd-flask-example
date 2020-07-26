@@ -1,0 +1,13 @@
+version: '3'
+services:
+  db:
+    container_name: mongodb_container
+    image: bitnami/mongodb
+    volumes:
+      - ./mongodb:/bitnami
+    environment:
+      - MONGODB_USERNAME=user
+      - MONGODB_PASSWORD=Ci8042020.
+      - MONGODB_DATABASE=favoritos
+    ports:
+      - 4001:27017
