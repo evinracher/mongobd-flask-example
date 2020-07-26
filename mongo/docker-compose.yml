@@ -8,6 +8,6 @@ services:
     environment:
       - MONGODB_USERNAME=user
       - MONGODB_PASSWORD=Ci8042020.
-      - MONGODB_DATABASE=favoritos
+      - MONGODB_DATABASE=favorites
     ports:
       - 4001:27017
